@@ -85,6 +85,7 @@ body {
 }
 .stats {
     margin-top: 30px;
+    flex-direction: row;
     display: flex;
     gap: 30px;
     justify-content: space-between;
@@ -92,7 +93,7 @@ body {
 .stat {
     background-color: white;
     padding: 5px 20px;
-    width: 300px;
+    width: 80%;
     color: black;
     box-shadow: 0 0 10px black;
     margin-top: 30px;
@@ -388,28 +389,33 @@ form button:hover{
 @media screen and (max-width:768px) {
    
     .nav {
-        padding: 15px 5%;
+        padding: 15px 3%;
     }
    .nav ul{
-        gap: 23px;
+        gap: 10px;
     }
     li a {
-        font-size: 13px;
+        font-size: 12px;
     }
     .nav img{
-        height: 35px;
-        width: 35px;
+        height: 30px;
+        width: 30px;
     }
     .nav .action {
-        padding: 7px;
-        font-size: 10px;
+        padding: 4px;
+        font-size: 8px;
         font-weight: 500;
        
     }
+
+    
     .hero{
-        width: 100%;
         margin-top: 80px;
+        
     }
+    html, body {
+    overflow-x: hidden;
+}
     .view{
         flex-direction: column;
         justify-content: center;
@@ -438,5 +444,101 @@ form button:hover{
     .card{
         width: 80%;
     }
+    .prop{
+        grid-template-columns: 80%;
+    }
+    .stories{
+    flex-direction: column;
     
+    }
+    .story{
+        width: 80%;
+    }
+    .choo{
+         grid-template-columns: 80%;
+    }
+
+  
+    .containers {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+
+    #contac {
+        width: 80%;
+    }
+
+    #conta {
+        width: 80%;
+    }
+
+    form {
+        width: 80%;
+    }
 }
+
+
+
+   @media screen and (max-width: 768px) {
+    .alone {
+        margin-left: 0;
+        display: block;
+        width: 80%;
+        margin: 30px auto 0;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        gap: 15px;
+        text-align: center;
+    }
+}
+}
+   
+
+   @media screen and (max-width: 1024px) {
+    .service {
+        gap: 50px;
+    }
+    .card{
+        
+        padding: 35px;
+    }
+    
+    .stories{
+    flex-direction: column;
+    
+    }
+    .story{
+        width: 80%;
+    }
+    .choo{
+         grid-template-columns: 80%;
+    }
+     .prop{
+        grid-template-columns: 80%;
+    }
+           
+    
+    .hero{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .view{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 13px;
+        font-weight: 500;
+        width: 200px;
+    }
+}
+    
+
+   
