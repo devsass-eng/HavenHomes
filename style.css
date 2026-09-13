@@ -372,3 +372,71 @@ form button:hover{
     height: 35px;
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+   
+    .nav {
+        padding: 15px 5%;
+    }
+   .nav ul{
+        gap: 23px;
+    }
+    li a {
+        font-size: 13px;
+    }
+    .nav img{
+        height: 35px;
+        width: 35px;
+    }
+    .nav .action {
+        padding: 7px;
+        font-size: 10px;
+        font-weight: 500;
+       
+    }
+    .hero{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .view{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .btn{
+        padding: 5px 20px;
+        font-size: 13px;
+        font-weight: 500;
+        width: 200px;
+    }
+    .stats{
+        flex-direction: column;
+        width: 100%;
+        gap: 1px;
+    }
+    .stat{
+        width: 80%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .service {
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+    }
+    
+}
